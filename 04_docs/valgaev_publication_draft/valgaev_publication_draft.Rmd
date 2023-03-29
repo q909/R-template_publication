@@ -77,7 +77,7 @@ library(stringr)
 
 # Introduction {#intro}
 
-Your text comes here. Separate text sections with \cite{Mislevy06Cog}. XXX
+Your text comes here. Separate text sections with \cite{Mislevy06Cog}.
 
 # Section title {#sec:1}
 
