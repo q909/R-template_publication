@@ -36,29 +36,13 @@ abstract: |
 bibliography: bibliography.bib
 biblio-style: spphys
 # bibstyle options spbasic(default), spphys, spmpsci
+#output: html_notebook
+output: rticles::springer_article
 
-output: html_notebook
-#output: rticles::springer_article
-#output:
-  #bookdown::pdf_document2:
-  #toc: no
-fig_caption: yes
-
-always_allow_html: yes
-
-
-# These are LaTex settings to take care of floating figures/tables, line spacing, etc
-# - Install tabu package in MikTex Console
-header-includes:
-  - \usepackage{endfloat}    
-  - \usepackage{setspace}\doublespacing
-  - \usepackage{lineno}
-  - \linenumbers
 ---
 
 ```{r Setup..., message=FALSE, warning=FALSE, include=FALSE}
-# Requires tabu Latex package (install in MikTeX console)
-knitr::opts_chunk$set(fig.pos = 'p') # Places figures on their own pages; 
+knitr::opts_chunk$set(fig.pos = 'p') # Places figures on their own pages
 knitr::opts_chunk$set(out.width = '100%', dpi=300)
 
 # I usually load my libraries up front to keep things organized
@@ -95,6 +79,10 @@ Use paragraph headings as needed.
 \begin{align}
 a^2+b^2=c^2
 \end{align}
+
+
+
+
 
 
 
