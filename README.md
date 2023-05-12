@@ -2,6 +2,7 @@
 This is a template for drafting a journal article in Rstudio (bookdown or notebook)
 
 Workflow:
+0. Create new GitHub repo for your new publication
 1. Duplicate this repo: https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository
 2. Adjust YALM-header to become an R notebook (output: html_notebook)
 3. Add BibTex file from Zotero (bibliography.bib)
